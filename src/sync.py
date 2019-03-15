@@ -13,7 +13,7 @@ if __name__ == '__main__':
     sub1 = message_filters.Subscriber('chatter1', some_position)
     sub2 = message_filters.Subscriber('chatter2', some_position)
 
-    fps = 10
+    fps = 10.
     delay = 1/fps
 
     ts = message_filters.ApproximateTimeSynchronizer([sub1,sub2], 10, delay)

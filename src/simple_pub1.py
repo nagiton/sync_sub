@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 # license removed for brevity
 import rospy
 from sync_sub.msg import some_position
